@@ -2,7 +2,7 @@ app = "waha-app2"
 primary_region = "gru"
 
 [build]
-  dockerfile = "Dockerfile"
+  dockerfile = "./Dockerfile"
 
 [env]
   NODE_ENV = "production"
